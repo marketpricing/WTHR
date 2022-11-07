@@ -18,7 +18,7 @@ namespace JuniorProjectWTHR
             InitializeComponent();
         }
         private NpgsqlConnection conn;
-        string connstring = "Host=localhost;Port=5432;Username=postgres;Password=maholtra26;Database=WTHR";
+        string connstring = "Host=pgadminwthr.postgres.database.azure.com;Port=5432;Username=iwan;Password=Juniorproyek22!;Database=WTHR";
         private DataTable dt;
         private NpgsqlCommand cmd;
         private string sql = null;
