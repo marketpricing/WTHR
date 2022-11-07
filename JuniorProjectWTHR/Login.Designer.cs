@@ -92,7 +92,7 @@ namespace JuniorProjectWTHR
             this.btnNoAkun.TabIndex = 3;
             this.btnNoAkun.Text = "Belum Punya Akun?";
             this.btnNoAkun.UseVisualStyleBackColor = false;
-            this.btnNoAkun.Click += new System.EventHandler(this.button1_Click);
+            this.btnNoAkun.Click += new System.EventHandler(this.btnNoAkun_Click);
             // 
             // btnLupaPassword
             // 
