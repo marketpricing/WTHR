@@ -19,7 +19,9 @@ namespace JuniorProjectWTHR
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Homepage h = new Homepage();
+            h.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
