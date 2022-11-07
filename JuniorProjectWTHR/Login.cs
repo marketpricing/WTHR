@@ -56,7 +56,7 @@ namespace JuniorProjectWTHR
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Login_Load(object sender, EventArgs e)
         {
             conn = new NpgsqlConnection(connstring);
         }

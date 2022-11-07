@@ -158,6 +158,7 @@ namespace JuniorProjectWTHR
             this.btnCreate.TabIndex = 9;
             this.btnCreate.Text = "Create";
             this.btnCreate.UseVisualStyleBackColor = false;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // Register
             // 
@@ -179,6 +180,7 @@ namespace JuniorProjectWTHR
             this.DoubleBuffered = true;
             this.Name = "Register";
             this.Text = "Register";
+            this.Load += new System.EventHandler(this.Register_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
