@@ -16,5 +16,10 @@ namespace JuniorProjectWTHR
         {
             InitializeComponent();
         }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
