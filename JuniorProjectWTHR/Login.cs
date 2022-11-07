@@ -35,5 +35,13 @@ namespace JuniorProjectWTHR
             Register reg = new Register();
             reg.Show();
         }
+
+        private void btnLupaPassword_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LupaPassword lupa = new LupaPassword();
+            lupa.Show();
+
+        }
     }
 }

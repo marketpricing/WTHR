@@ -15,6 +15,8 @@ namespace JuniorProjectWTHR
         public Homepage()
         {
             InitializeComponent();
+
+           
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -27,6 +29,13 @@ namespace JuniorProjectWTHR
             this.Hide();
             KualitasUdara ku = new KualitasUdara();
             ku.Show();
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile p = new Profile();
+            p.Show();
         }
     }
 }
