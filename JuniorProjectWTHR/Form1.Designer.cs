@@ -31,7 +31,7 @@ namespace JuniorProjectWTHR
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnProfile = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbHomepage = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnProfile
@@ -47,13 +47,13 @@ namespace JuniorProjectWTHR
             this.btnProfile.UseVisualStyleBackColor = false;
             this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
             // 
-            // comboBox1
+            // cbHomepage
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(49, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(311, 28);
-            this.comboBox1.TabIndex = 1;
+            this.cbHomepage.FormattingEnabled = true;
+            this.cbHomepage.Location = new System.Drawing.Point(49, 34);
+            this.cbHomepage.Name = "cbHomepage";
+            this.cbHomepage.Size = new System.Drawing.Size(311, 28);
+            this.cbHomepage.TabIndex = 1;
             // 
             // Form1
             // 
@@ -62,7 +62,7 @@ namespace JuniorProjectWTHR
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1015, 571);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbHomepage);
             this.Controls.Add(this.btnProfile);
             this.DoubleBuffered = true;
             this.Name = "Form1";
@@ -74,7 +74,7 @@ namespace JuniorProjectWTHR
         #endregion
 
         private System.Windows.Forms.Button btnProfile;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbHomepage;
     }
 }
 
