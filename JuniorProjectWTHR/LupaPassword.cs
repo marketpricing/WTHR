@@ -28,5 +28,12 @@ namespace JuniorProjectWTHR
         {
 
         }
+
+        private void btnBackLupaPassword_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }
