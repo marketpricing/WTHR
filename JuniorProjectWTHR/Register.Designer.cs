@@ -46,10 +46,10 @@ namespace JuniorProjectWTHR
             // 
             this.lbUn.AutoSize = true;
             this.lbUn.BackColor = System.Drawing.Color.Transparent;
-            this.lbUn.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUn.Location = new System.Drawing.Point(252, 147);
+            this.lbUn.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUn.Location = new System.Drawing.Point(255, 146);
             this.lbUn.Name = "lbUn";
-            this.lbUn.Size = new System.Drawing.Size(84, 19);
+            this.lbUn.Size = new System.Drawing.Size(83, 20);
             this.lbUn.TabIndex = 0;
             this.lbUn.Text = "Username";
             // 
@@ -57,10 +57,10 @@ namespace JuniorProjectWTHR
             // 
             this.lbEmail.AutoSize = true;
             this.lbEmail.BackColor = System.Drawing.Color.Transparent;
-            this.lbEmail.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEmail.Location = new System.Drawing.Point(252, 204);
+            this.lbEmail.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEmail.Location = new System.Drawing.Point(255, 203);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(48, 19);
+            this.lbEmail.Size = new System.Drawing.Size(50, 20);
             this.lbEmail.TabIndex = 1;
             this.lbEmail.Text = "Email";
             // 
@@ -68,10 +68,10 @@ namespace JuniorProjectWTHR
             // 
             this.lbPw.AutoSize = true;
             this.lbPw.BackColor = System.Drawing.Color.Transparent;
-            this.lbPw.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPw.Location = new System.Drawing.Point(252, 261);
+            this.lbPw.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPw.Location = new System.Drawing.Point(255, 260);
             this.lbPw.Name = "lbPw";
-            this.lbPw.Size = new System.Drawing.Size(78, 19);
+            this.lbPw.Size = new System.Drawing.Size(83, 20);
             this.lbPw.TabIndex = 2;
             this.lbPw.Text = "Password";
             // 
@@ -79,10 +79,10 @@ namespace JuniorProjectWTHR
             // 
             this.lbConfirm.AutoSize = true;
             this.lbConfirm.BackColor = System.Drawing.Color.Transparent;
-            this.lbConfirm.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbConfirm.Location = new System.Drawing.Point(252, 316);
+            this.lbConfirm.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbConfirm.Location = new System.Drawing.Point(255, 315);
             this.lbConfirm.Name = "lbConfirm";
-            this.lbConfirm.Size = new System.Drawing.Size(141, 19);
+            this.lbConfirm.Size = new System.Drawing.Size(149, 20);
             this.lbConfirm.TabIndex = 3;
             this.lbConfirm.Text = "Confirm Password";
             // 
@@ -90,44 +90,44 @@ namespace JuniorProjectWTHR
             // 
             this.tbUn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(135)))), ((int)(((byte)(161)))));
             this.tbUn.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbUn.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbUn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbUn.ForeColor = System.Drawing.Color.White;
             this.tbUn.Location = new System.Drawing.Point(262, 169);
             this.tbUn.Name = "tbUn";
-            this.tbUn.Size = new System.Drawing.Size(278, 20);
+            this.tbUn.Size = new System.Drawing.Size(278, 19);
             this.tbUn.TabIndex = 4;
             // 
             // tbEmail
             // 
             this.tbEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(135)))), ((int)(((byte)(161)))));
             this.tbEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbEmail.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbEmail.ForeColor = System.Drawing.Color.White;
             this.tbEmail.Location = new System.Drawing.Point(262, 226);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(278, 20);
+            this.tbEmail.Size = new System.Drawing.Size(278, 19);
             this.tbEmail.TabIndex = 5;
             // 
             // tbPw
             // 
             this.tbPw.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(135)))), ((int)(((byte)(161)))));
             this.tbPw.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbPw.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPw.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPw.ForeColor = System.Drawing.Color.White;
             this.tbPw.Location = new System.Drawing.Point(262, 283);
             this.tbPw.Name = "tbPw";
-            this.tbPw.Size = new System.Drawing.Size(278, 20);
+            this.tbPw.Size = new System.Drawing.Size(278, 19);
             this.tbPw.TabIndex = 6;
             // 
             // tbConfirm
             // 
             this.tbConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(135)))), ((int)(((byte)(161)))));
             this.tbConfirm.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbConfirm.Font = new System.Drawing.Font("Humanst521 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbConfirm.ForeColor = System.Drawing.Color.White;
             this.tbConfirm.Location = new System.Drawing.Point(262, 338);
             this.tbConfirm.Name = "tbConfirm";
-            this.tbConfirm.Size = new System.Drawing.Size(278, 20);
+            this.tbConfirm.Size = new System.Drawing.Size(278, 19);
             this.tbConfirm.TabIndex = 7;
             // 
             // btnBack
@@ -135,7 +135,8 @@ namespace JuniorProjectWTHR
             this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(135)))), ((int)(((byte)(161)))));
             this.btnBack.FlatAppearance.BorderSize = 0;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Font = new System.Drawing.Font("Humanst521 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
             this.btnBack.Location = new System.Drawing.Point(288, 386);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(82, 35);
@@ -148,7 +149,8 @@ namespace JuniorProjectWTHR
             this.btnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(135)))), ((int)(((byte)(161)))));
             this.btnCreate.FlatAppearance.BorderSize = 0;
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreate.Font = new System.Drawing.Font("Humanst521 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreate.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreate.ForeColor = System.Drawing.Color.White;
             this.btnCreate.Location = new System.Drawing.Point(418, 388);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(82, 35);
