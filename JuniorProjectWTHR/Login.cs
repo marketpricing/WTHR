@@ -31,7 +31,9 @@ namespace JuniorProjectWTHR
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Register reg = new Register();
+            reg.Show();
         }
     }
 }

@@ -21,5 +21,12 @@ namespace JuniorProjectWTHR
         {
 
         }
+
+        private void btnKualitasUdara_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            KualitasUdara ku = new KualitasUdara();
+            ku.Show();
+        }
     }
 }

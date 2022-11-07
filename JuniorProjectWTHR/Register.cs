@@ -16,5 +16,12 @@ namespace JuniorProjectWTHR
         {
             InitializeComponent();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login log = new Login();
+            log.Show();
+        }
     }
 }

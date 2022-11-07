@@ -46,6 +46,7 @@ namespace JuniorProjectWTHR
             this.btnBackKU.TabIndex = 0;
             this.btnBackKU.Text = "Back";
             this.btnBackKU.UseVisualStyleBackColor = false;
+            this.btnBackKU.Click += new System.EventHandler(this.btnBackKU_Click);
             // 
             // KualitasUdara
             // 

@@ -16,5 +16,12 @@ namespace JuniorProjectWTHR
         {
             InitializeComponent();
         }
+
+        private void btnBackKU_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Homepage h = new Homepage();
+            h.Show();
+        }
     }
 }
