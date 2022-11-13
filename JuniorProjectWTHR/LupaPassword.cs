@@ -60,8 +60,8 @@ namespace JuniorProjectWTHR
         private void btnBackLupaPassword_Click(object sender, EventArgs e)
         {
             this.Hide();
-            sendcode sc = new sendcode();
-            sc.Show();
+            Login lg = new Login();
+            lg.Show();
         }
 
         private void LupaPassword_Load(object sender, EventArgs e)

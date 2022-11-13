@@ -25,8 +25,8 @@ namespace JuniorProjectWTHR
         private void btn_Back_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login lg = new Login();
-            lg.Show();
+            
+            
         }
 
         private void btnSendEmail_Click(object sender, EventArgs e)
@@ -76,6 +76,11 @@ namespace JuniorProjectWTHR
         }
 
         private void sendcode_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbSendEmail_TextChanged(object sender, EventArgs e)
         {
 
         }
