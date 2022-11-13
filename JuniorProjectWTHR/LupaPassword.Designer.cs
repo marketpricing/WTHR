@@ -43,7 +43,7 @@
             // 
             this.tbUsernameLupa.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbUsernameLupa.Location = new System.Drawing.Point(263, 125);
-            this.tbUsernameLupa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbUsernameLupa.Margin = new System.Windows.Forms.Padding(2);
             this.tbUsernameLupa.Name = "tbUsernameLupa";
             this.tbUsernameLupa.Size = new System.Drawing.Size(272, 13);
             this.tbUsernameLupa.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             this.tbPasswordLupa.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPasswordLupa.Location = new System.Drawing.Point(264, 186);
-            this.tbPasswordLupa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPasswordLupa.Margin = new System.Windows.Forms.Padding(2);
             this.tbPasswordLupa.Name = "tbPasswordLupa";
             this.tbPasswordLupa.Size = new System.Drawing.Size(272, 13);
             this.tbPasswordLupa.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             this.tbConfimPassLupa.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbConfimPassLupa.Location = new System.Drawing.Point(264, 246);
-            this.tbConfimPassLupa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbConfimPassLupa.Margin = new System.Windows.Forms.Padding(2);
             this.tbConfimPassLupa.Name = "tbConfimPassLupa";
             this.tbConfimPassLupa.Size = new System.Drawing.Size(272, 13);
             this.tbConfimPassLupa.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.btnNewPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.btnNewPassword.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewPassword.Location = new System.Drawing.Point(322, 320);
-            this.btnNewPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNewPassword.Margin = new System.Windows.Forms.Padding(2);
             this.btnNewPassword.Name = "btnNewPassword";
             this.btnNewPassword.Size = new System.Drawing.Size(151, 31);
             this.btnNewPassword.TabIndex = 3;
@@ -149,10 +149,11 @@
             this.Controls.Add(this.tbPasswordLupa);
             this.Controls.Add(this.tbUsernameLupa);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LupaPassword";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "LupaPassword";
+            this.Load += new System.EventHandler(this.LupaPassword_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

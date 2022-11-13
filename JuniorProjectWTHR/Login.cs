@@ -71,8 +71,8 @@ namespace JuniorProjectWTHR
         private void btnLupaPassword_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LupaPassword lupa = new LupaPassword();
-            lupa.Show();
+            sendcode sc = new sendcode();
+            sc.Show();
 
         }
     }
