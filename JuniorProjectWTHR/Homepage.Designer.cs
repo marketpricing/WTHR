@@ -50,11 +50,14 @@
             // 
             // cbLokasi
             // 
+            this.cbLokasi.BackColor = System.Drawing.Color.Black;
+            this.cbLokasi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbLokasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbLokasi.FormattingEnabled = true;
-            this.cbLokasi.Location = new System.Drawing.Point(46, 14);
+            this.cbLokasi.Location = new System.Drawing.Point(47, 11);
             this.cbLokasi.Margin = new System.Windows.Forms.Padding(2);
             this.cbLokasi.Name = "cbLokasi";
-            this.cbLokasi.Size = new System.Drawing.Size(321, 21);
+            this.cbLokasi.Size = new System.Drawing.Size(321, 28);
             this.cbLokasi.TabIndex = 1;
             this.cbLokasi.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -91,7 +94,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnProfile;
-        private System.Windows.Forms.ComboBox cbLokasi;
         private System.Windows.Forms.Button btnKualitasUdara;
+        public System.Windows.Forms.ComboBox cbLokasi;
     }
 }
