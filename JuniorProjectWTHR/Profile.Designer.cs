@@ -39,9 +39,10 @@
             // 
             this.lblProfileEmail.AutoSize = true;
             this.lblProfileEmail.BackColor = System.Drawing.Color.Transparent;
-            this.lblProfileEmail.Location = new System.Drawing.Point(422, 163);
+            this.lblProfileEmail.Location = new System.Drawing.Point(281, 106);
+            this.lblProfileEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProfileEmail.Name = "lblProfileEmail";
-            this.lblProfileEmail.Size = new System.Drawing.Size(0, 20);
+            this.lblProfileEmail.Size = new System.Drawing.Size(0, 13);
             this.lblProfileEmail.TabIndex = 0;
             this.lblProfileEmail.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -49,9 +50,10 @@
             // 
             this.lblProfileUser.AutoSize = true;
             this.lblProfileUser.BackColor = System.Drawing.Color.Transparent;
-            this.lblProfileUser.Location = new System.Drawing.Point(422, 221);
+            this.lblProfileUser.Location = new System.Drawing.Point(281, 144);
+            this.lblProfileUser.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProfileUser.Name = "lblProfileUser";
-            this.lblProfileUser.Size = new System.Drawing.Size(0, 20);
+            this.lblProfileUser.Size = new System.Drawing.Size(0, 13);
             this.lblProfileUser.TabIndex = 1;
             // 
             // btnLogOut
@@ -61,40 +63,41 @@
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOut.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLogOut.Location = new System.Drawing.Point(352, 305);
+            this.btnLogOut.Location = new System.Drawing.Point(216, 225);
+            this.btnLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(156, 73);
+            this.btnLogOut.Size = new System.Drawing.Size(134, 37);
             this.btnLogOut.TabIndex = 2;
-            this.btnLogOut.Text = "Log Out";
             this.btnLogOut.UseVisualStyleBackColor = false;
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // btnProfileBack
             // 
-            this.btnProfileBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(151)))), ((int)(((byte)(184)))));
+            this.btnProfileBack.BackColor = System.Drawing.Color.Transparent;
             this.btnProfileBack.FlatAppearance.BorderSize = 0;
             this.btnProfileBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProfileBack.ForeColor = System.Drawing.Color.White;
-            this.btnProfileBack.Location = new System.Drawing.Point(32, 418);
+            this.btnProfileBack.Location = new System.Drawing.Point(513, 264);
+            this.btnProfileBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProfileBack.Name = "btnProfileBack";
-            this.btnProfileBack.Size = new System.Drawing.Size(80, 40);
+            this.btnProfileBack.Size = new System.Drawing.Size(31, 36);
             this.btnProfileBack.TabIndex = 3;
-            this.btnProfileBack.Text = "Back";
             this.btnProfileBack.UseVisualStyleBackColor = false;
             this.btnProfileBack.Click += new System.EventHandler(this.btnProfileBack_Click);
             // 
             // Profile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(848, 478);
+            this.ClientSize = new System.Drawing.Size(565, 311);
             this.Controls.Add(this.btnProfileBack);
             this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.lblProfileUser);
             this.Controls.Add(this.lblProfileEmail);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Profile";
             this.Text = "Profile";
             this.Load += new System.EventHandler(this.Profile_Load);

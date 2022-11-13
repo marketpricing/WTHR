@@ -40,11 +40,10 @@ namespace JuniorProjectWTHR
             this.btnBackKU.FlatAppearance.BorderSize = 0;
             this.btnBackKU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBackKU.ForeColor = System.Drawing.Color.White;
-            this.btnBackKU.Location = new System.Drawing.Point(68, 383);
+            this.btnBackKU.Location = new System.Drawing.Point(737, 379);
             this.btnBackKU.Name = "btnBackKU";
-            this.btnBackKU.Size = new System.Drawing.Size(75, 23);
+            this.btnBackKU.Size = new System.Drawing.Size(51, 48);
             this.btnBackKU.TabIndex = 0;
-            this.btnBackKU.Text = "Back";
             this.btnBackKU.UseVisualStyleBackColor = false;
             this.btnBackKU.Click += new System.EventHandler(this.btnBackKU_Click);
             // 

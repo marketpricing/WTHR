@@ -40,9 +40,10 @@
             this.btnProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnProfile.FlatAppearance.BorderSize = 0;
             this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProfile.Location = new System.Drawing.Point(1095, 22);
+            this.btnProfile.Location = new System.Drawing.Point(754, 11);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(75, 77);
+            this.btnProfile.Size = new System.Drawing.Size(35, 31);
             this.btnProfile.TabIndex = 0;
             this.btnProfile.UseVisualStyleBackColor = false;
             this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
@@ -50,9 +51,10 @@
             // cbLokasi
             // 
             this.cbLokasi.FormattingEnabled = true;
-            this.cbLokasi.Location = new System.Drawing.Point(68, 43);
+            this.cbLokasi.Location = new System.Drawing.Point(46, 14);
+            this.cbLokasi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbLokasi.Name = "cbLokasi";
-            this.cbLokasi.Size = new System.Drawing.Size(348, 28);
+            this.cbLokasi.Size = new System.Drawing.Size(321, 21);
             this.cbLokasi.TabIndex = 1;
             this.cbLokasi.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -61,25 +63,25 @@
             this.btnKualitasUdara.BackColor = System.Drawing.Color.Transparent;
             this.btnKualitasUdara.FlatAppearance.BorderSize = 0;
             this.btnKualitasUdara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKualitasUdara.Location = new System.Drawing.Point(618, 117);
-            this.btnKualitasUdara.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnKualitasUdara.Location = new System.Drawing.Point(286, 75);
             this.btnKualitasUdara.Name = "btnKualitasUdara";
-            this.btnKualitasUdara.Size = new System.Drawing.Size(82, 71);
+            this.btnKualitasUdara.Size = new System.Drawing.Size(55, 46);
             this.btnKualitasUdara.TabIndex = 2;
             this.btnKualitasUdara.UseVisualStyleBackColor = false;
             this.btnKualitasUdara.Click += new System.EventHandler(this.btnKualitasUdara_Click);
             // 
             // Homepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnKualitasUdara);
             this.Controls.Add(this.cbLokasi);
             this.Controls.Add(this.btnProfile);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Homepage";
             this.Text = "Homepage";
             this.ResumeLayout(false);
