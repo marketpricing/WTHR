@@ -124,7 +124,7 @@ namespace JuniorProjectWTHR
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnNoAkun;
         private System.Windows.Forms.Button btnLupaPassword;
-        private System.Windows.Forms.TextBox tbUsername;
+        public System.Windows.Forms.TextBox tbUsername;
         private System.Windows.Forms.TextBox tbPassword;
     }
 }

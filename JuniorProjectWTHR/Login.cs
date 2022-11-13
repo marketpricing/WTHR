@@ -40,7 +40,7 @@ namespace JuniorProjectWTHR
                 if (result == 1)
                 {
                     this.Hide();
-                    Homepage h = new Homepage();
+                    Homepage h = new Homepage(this);
                     h.Show();
                 }
                 else

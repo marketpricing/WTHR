@@ -32,6 +32,7 @@
             this.btnProfile = new System.Windows.Forms.Button();
             this.cbLokasi = new System.Windows.Forms.ComboBox();
             this.btnKualitasUdara = new System.Windows.Forms.Button();
+            this.lbUN = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnProfile
@@ -73,6 +74,16 @@
             this.btnKualitasUdara.UseVisualStyleBackColor = false;
             this.btnKualitasUdara.Click += new System.EventHandler(this.btnKualitasUdara_Click);
             // 
+            // lbUN
+            // 
+            this.lbUN.AutoSize = true;
+            this.lbUN.BackColor = System.Drawing.Color.Black;
+            this.lbUN.Location = new System.Drawing.Point(697, 19);
+            this.lbUN.Name = "lbUN";
+            this.lbUN.Size = new System.Drawing.Size(35, 13);
+            this.lbUN.TabIndex = 3;
+            this.lbUN.Text = "label1";
+            // 
             // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +91,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbUN);
             this.Controls.Add(this.btnKualitasUdara);
             this.Controls.Add(this.cbLokasi);
             this.Controls.Add(this.btnProfile);
@@ -87,7 +99,9 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Homepage";
             this.Text = "Homepage";
+            this.Load += new System.EventHandler(this.Homepage_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -96,5 +110,6 @@
         private System.Windows.Forms.Button btnProfile;
         private System.Windows.Forms.Button btnKualitasUdara;
         public System.Windows.Forms.ComboBox cbLokasi;
+        public System.Windows.Forms.Label lbUN;
     }
 }

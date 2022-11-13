@@ -12,9 +12,17 @@ namespace JuniorProjectWTHR
 {
     public partial class Profile : Form
     {
-        public Profile()
+        Homepage home;
+
+        //public Profile()
+        //{
+         //   InitializeComponent();
+        //}
+
+        public Profile(Homepage hp)
         {
             InitializeComponent();
+            this.home = hp;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -29,7 +37,8 @@ namespace JuniorProjectWTHR
 
         private void Profile_Load(object sender, EventArgs e)
         {
-
+            string username = home.lbUN.Text;
+            lblProfileUser.Text = username;
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
