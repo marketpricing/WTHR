@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace JuniorProjectWTHR
     {
         Homepage home;
 
+
         //public Profile()
         //{
          //   InitializeComponent();
@@ -24,6 +26,12 @@ namespace JuniorProjectWTHR
             InitializeComponent();
             this.home = hp;
         }
+        private NpgsqlConnection conn;
+        string connstring = "Host=pgadminwthr.postgres.database.azure.com;Port=5432;Username=iwan;Password=Juniorproyek22!;Database=WTHR";
+        private DataTable dt;
+        private NpgsqlCommand cmd;
+        private string sql = null;
+        //private DataGridViewRow r;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -37,8 +45,20 @@ namespace JuniorProjectWTHR
 
         private void Profile_Load(object sender, EventArgs e)
         {
+            conn = new NpgsqlConnection(connstring);
             string username = home.lbUN.Text;
             lblProfileUser.Text = username;
+
+            conn.Open();
+            sql = @"select * from show_EmailProfile(:_username)";
+            cmd = new NpgsqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("_username", username);
+            dt = new DataTable();
+            NpgsqlDataReader rd = cmd.ExecuteReader();
+            dt.Load(rd);
+            
+            lblProfileEmail.Text = dt.Rows[0]["_email"].ToString();
+            conn.Close();
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
