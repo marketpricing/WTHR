@@ -23,16 +23,6 @@ namespace JuniorProjectWTHR
         private NpgsqlCommand cmd;
         private string sql = null;
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Profile_Load(object sender, EventArgs e)
         {
             conn = new NpgsqlConnection(connstring);

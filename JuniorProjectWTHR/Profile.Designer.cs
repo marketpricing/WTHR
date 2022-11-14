@@ -47,7 +47,6 @@
             this.lblProfileEmail.Size = new System.Drawing.Size(47, 16);
             this.lblProfileEmail.TabIndex = 0;
             this.lblProfileEmail.Text = "Email";
-            this.lblProfileEmail.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblProfileUser
             // 
