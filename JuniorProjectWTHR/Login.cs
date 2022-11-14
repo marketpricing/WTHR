@@ -19,9 +19,16 @@ namespace JuniorProjectWTHR
         }
         private NpgsqlConnection conn;
         string connstring = "Host=pgadminwthr.postgres.database.azure.com;Port=5432;Username=iwan;Password=Juniorproyek22!;Database=WTHR";
-        private DataTable dt;
         private NpgsqlCommand cmd;
         private string sql = null;
+
+        public static string uname;
+
+        public static string nameprofile
+        {
+            get { return uname; }
+            set { uname = value; }
+        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -39,8 +46,9 @@ namespace JuniorProjectWTHR
 
                 if (result == 1)
                 {
+                    nameprofile = tbUsername.Text;
                     this.Hide();
-                    Homepage h = new Homepage(this);
+                    Homepage h = new Homepage();
                     h.Show();
                 }
                 else

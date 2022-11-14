@@ -12,18 +12,10 @@ namespace JuniorProjectWTHR
 {
     public partial class Homepage : Form
     {
-        Login log;
         public Homepage()
         {
             InitializeComponent();
         }
-
-        public Homepage(Login lgn)
-        {
-            InitializeComponent();
-            this.log = lgn;
-        }
-
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -40,13 +32,13 @@ namespace JuniorProjectWTHR
         private void btnProfile_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Profile p = new Profile(this);
+            Profile p = new Profile();
             p.Show();
         }
 
         private void Homepage_Load(object sender, EventArgs e)
         {
-            lbUN.Text = log.tbUsername.Text;
+            
         }
     }
 }

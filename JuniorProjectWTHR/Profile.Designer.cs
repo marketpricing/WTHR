@@ -115,7 +115,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblProfileEmail;
-        private System.Windows.Forms.Label lblProfileUser;
+        public System.Windows.Forms.Label lblProfileUser;
         private System.Windows.Forms.Button btnLogOut;
         private System.Windows.Forms.Button btnProfileBack;
     }

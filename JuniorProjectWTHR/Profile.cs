@@ -13,25 +13,15 @@ namespace JuniorProjectWTHR
 {
     public partial class Profile : Form
     {
-        Homepage home;
-
-
-        //public Profile()
-        //{
-         //   InitializeComponent();
-        //}
-
-        public Profile(Homepage hp)
+        public Profile()
         {
             InitializeComponent();
-            this.home = hp;
         }
         private NpgsqlConnection conn;
         string connstring = "Host=pgadminwthr.postgres.database.azure.com;Port=5432;Username=iwan;Password=Juniorproyek22!;Database=WTHR";
         private DataTable dt;
         private NpgsqlCommand cmd;
         private string sql = null;
-        //private DataGridViewRow r;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -46,7 +36,7 @@ namespace JuniorProjectWTHR
         private void Profile_Load(object sender, EventArgs e)
         {
             conn = new NpgsqlConnection(connstring);
-            string username = home.lbUN.Text;
+            string username = Login.nameprofile;
             lblProfileUser.Text = username;
 
             conn.Open();
@@ -66,10 +56,6 @@ namespace JuniorProjectWTHR
             this.Hide();
             Login lg = new Login();
             lg.Show();
-            
-            
-
-
         }
 
         private void btnProfileBack_Click(object sender, EventArgs e)
