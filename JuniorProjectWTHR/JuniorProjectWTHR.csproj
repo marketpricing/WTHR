@@ -99,6 +99,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ForecastUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ForecastUC.Designer.cs">
+      <DependentUpon>ForecastUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Homepage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,7 +149,11 @@
     <Compile Include="sendcode.Designer.cs">
       <DependentUpon>sendcode.cs</DependentUpon>
     </Compile>
+    <Compile Include="WeatherForecast.cs" />
     <Compile Include="WeatherInfo.cs" />
+    <EmbeddedResource Include="ForecastUC.resx">
+      <DependentUpon>ForecastUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.cs</DependentUpon>
     </EmbeddedResource>
