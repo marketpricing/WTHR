@@ -113,6 +113,7 @@
             this.pbIcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbIcon.Name = "pbIcon";
             this.pbIcon.Size = new System.Drawing.Size(210, 166);
+            this.pbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbIcon.TabIndex = 5;
             this.pbIcon.TabStop = false;
             // 
@@ -180,9 +181,9 @@
             // FLP
             // 
             this.FLP.BackColor = System.Drawing.Color.Transparent;
-            this.FLP.Location = new System.Drawing.Point(33, 115);
+            this.FLP.Location = new System.Drawing.Point(623, 265);
             this.FLP.Name = "FLP";
-            this.FLP.Size = new System.Drawing.Size(703, 509);
+            this.FLP.Size = new System.Drawing.Size(581, 341);
             this.FLP.TabIndex = 11;
             this.FLP.Paint += new System.Windows.Forms.PaintEventHandler(this.FLP_Paint);
             // 

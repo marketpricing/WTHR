@@ -99,7 +99,7 @@ namespace JuniorProjectWTHR
                 WeatherForecast.forecastInfo ForecastInfo = JsonConvert.DeserializeObject<WeatherForecast.forecastInfo>(json);
 
                 ForecastUC FUC;
-                for (int i = 0; i<8; i++)
+                for (int i = 0; i<4; i++)
                 {
                     FUC = new ForecastUC();
                     FUC.picWeatherIcon.ImageLocation = "https://openweathermap.org/img/w/" + ForecastInfo.daily[i].weather[0].icon + ".png";

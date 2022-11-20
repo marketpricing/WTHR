@@ -39,14 +39,15 @@
             // 
             this.picWeatherIcon.Location = new System.Drawing.Point(3, 3);
             this.picWeatherIcon.Name = "picWeatherIcon";
-            this.picWeatherIcon.Size = new System.Drawing.Size(126, 127);
+            this.picWeatherIcon.Size = new System.Drawing.Size(108, 109);
+            this.picWeatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picWeatherIcon.TabIndex = 0;
             this.picWeatherIcon.TabStop = false;
             // 
             // labDT
             // 
             this.labDT.AutoSize = true;
-            this.labDT.Location = new System.Drawing.Point(134, 21);
+            this.labDT.Location = new System.Drawing.Point(25, 141);
             this.labDT.Name = "labDT";
             this.labDT.Size = new System.Drawing.Size(63, 20);
             this.labDT.TabIndex = 1;
@@ -55,7 +56,7 @@
             // labMainWeather
             // 
             this.labMainWeather.AutoSize = true;
-            this.labMainWeather.Location = new System.Drawing.Point(134, 55);
+            this.labMainWeather.Location = new System.Drawing.Point(31, 181);
             this.labMainWeather.Name = "labMainWeather";
             this.labMainWeather.Size = new System.Drawing.Size(46, 20);
             this.labMainWeather.TabIndex = 2;
@@ -65,7 +66,7 @@
             // labWeatherDescripton
             // 
             this.labWeatherDescripton.AutoSize = true;
-            this.labWeatherDescripton.Location = new System.Drawing.Point(134, 88);
+            this.labWeatherDescripton.Location = new System.Drawing.Point(11, 218);
             this.labWeatherDescripton.Name = "labWeatherDescripton";
             this.labWeatherDescripton.Size = new System.Drawing.Size(89, 20);
             this.labWeatherDescripton.TabIndex = 3;
@@ -80,7 +81,7 @@
             this.Controls.Add(this.labDT);
             this.Controls.Add(this.picWeatherIcon);
             this.Name = "ForecastUC";
-            this.Size = new System.Drawing.Size(383, 133);
+            this.Size = new System.Drawing.Size(113, 280);
             ((System.ComponentModel.ISupportInitialize)(this.picWeatherIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
