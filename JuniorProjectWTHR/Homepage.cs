@@ -41,7 +41,9 @@ namespace JuniorProjectWTHR
 
         private void Homepage_Load(object sender, EventArgs e)
         {
-            
+            cbLokasi.Text = "Yogyakarta";
+            getWeather();
+            getForecast();
         }
 
         string APIkeys = "18dede3a5891aa7f0c4f991203e451c0";
