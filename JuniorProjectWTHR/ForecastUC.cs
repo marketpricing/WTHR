@@ -12,6 +12,7 @@ namespace JuniorProjectWTHR
 {
     public partial class ForecastUC : UserControl
     {
+        
         public ForecastUC()
         {
             InitializeComponent();

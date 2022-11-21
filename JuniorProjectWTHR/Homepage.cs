@@ -94,6 +94,7 @@ namespace JuniorProjectWTHR
         
         void getForecast()
         {
+            FLP.Controls.Clear();
             using (WebClient web = new WebClient())
             {
                 string url = string.Format("https://api.openweathermap.org/data/2.5/onecall?lat={0}&lon={1}&exclude=current,minutely,hourly,alerts&appid={2}", lat, lon, APIkeys);
