@@ -22,5 +22,10 @@ namespace JuniorProjectWTHR
         {
 
         }
+
+        private void ForecastUC_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
