@@ -81,6 +81,8 @@
             this.btnKualitasUdara.BackColor = System.Drawing.Color.Transparent;
             this.btnKualitasUdara.FlatAppearance.BorderSize = 0;
             this.btnKualitasUdara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKualitasUdara.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKualitasUdara.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btnKualitasUdara.Location = new System.Drawing.Point(286, 75);
             this.btnKualitasUdara.Name = "btnKualitasUdara";
             this.btnKualitasUdara.Size = new System.Drawing.Size(55, 46);

@@ -50,11 +50,12 @@
             this.labDT.Dock = System.Windows.Forms.DockStyle.Top;
             this.labDT.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labDT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labDT.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.labDT.Location = new System.Drawing.Point(0, 0);
             this.labDT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labDT.Name = "labDT";
             this.labDT.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labDT.Size = new System.Drawing.Size(82, 17);
+            this.labDT.Size = new System.Drawing.Size(82, 25);
             this.labDT.TabIndex = 1;
             this.labDT.Text = "Wednesady";
             this.labDT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
