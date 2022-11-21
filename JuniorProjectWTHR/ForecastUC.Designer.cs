@@ -48,10 +48,12 @@
             // labDT
             // 
             this.labDT.AutoSize = true;
-            this.labDT.Location = new System.Drawing.Point(21, 9);
+            this.labDT.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labDT.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labDT.Location = new System.Drawing.Point(11, 0);
             this.labDT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labDT.Name = "labDT";
-            this.labDT.Size = new System.Drawing.Size(43, 13);
+            this.labDT.Size = new System.Drawing.Size(53, 14);
             this.labDT.TabIndex = 1;
             this.labDT.Text = "Sunday";
             // 

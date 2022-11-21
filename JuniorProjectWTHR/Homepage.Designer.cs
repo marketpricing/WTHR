@@ -249,7 +249,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.FLP);
             this.Controls.Add(this.lbHumidity);
             this.Controls.Add(this.lbWind);
             this.Controls.Add(this.lbDetail);
@@ -259,6 +258,7 @@
             this.Controls.Add(this.btnKualitasUdara);
             this.Controls.Add(this.cbLokasi);
             this.Controls.Add(this.btnProfile);
+            this.Controls.Add(this.FLP);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Homepage";
