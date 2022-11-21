@@ -54,11 +54,12 @@
             this.tbPasswordLupa.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPasswordLupa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPasswordLupa.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbPasswordLupa.Location = new System.Drawing.Point(234, 276);
+            this.tbPasswordLupa.Location = new System.Drawing.Point(234, 273);
             this.tbPasswordLupa.Margin = new System.Windows.Forms.Padding(2);
             this.tbPasswordLupa.Name = "tbPasswordLupa";
             this.tbPasswordLupa.Size = new System.Drawing.Size(301, 15);
             this.tbPasswordLupa.TabIndex = 1;
+            this.tbPasswordLupa.UseSystemPasswordChar = true;
             // 
             // tbConfimPassLupa
             // 
@@ -66,11 +67,12 @@
             this.tbConfimPassLupa.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbConfimPassLupa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbConfimPassLupa.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbConfimPassLupa.Location = new System.Drawing.Point(234, 332);
+            this.tbConfimPassLupa.Location = new System.Drawing.Point(234, 333);
             this.tbConfimPassLupa.Margin = new System.Windows.Forms.Padding(2);
             this.tbConfimPassLupa.Name = "tbConfimPassLupa";
             this.tbConfimPassLupa.Size = new System.Drawing.Size(302, 15);
             this.tbConfimPassLupa.TabIndex = 2;
+            this.tbConfimPassLupa.UseSystemPasswordChar = true;
             // 
             // btnNewPassword
             // 

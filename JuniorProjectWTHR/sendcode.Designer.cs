@@ -42,9 +42,9 @@ namespace JuniorProjectWTHR
             this.btn_Back.BackColor = System.Drawing.Color.Transparent;
             this.btn_Back.FlatAppearance.BorderSize = 0;
             this.btn_Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Back.Location = new System.Drawing.Point(255, 325);
+            this.btn_Back.Location = new System.Drawing.Point(251, 325);
             this.btn_Back.Name = "btn_Back";
-            this.btn_Back.Size = new System.Drawing.Size(35, 37);
+            this.btn_Back.Size = new System.Drawing.Size(45, 37);
             this.btn_Back.TabIndex = 0;
             this.btn_Back.UseVisualStyleBackColor = false;
             this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
@@ -53,12 +53,13 @@ namespace JuniorProjectWTHR
             // 
             this.tbSendEmail.BackColor = System.Drawing.Color.Black;
             this.tbSendEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbSendEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSendEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSendEmail.ForeColor = System.Drawing.Color.White;
             this.tbSendEmail.Location = new System.Drawing.Point(49, 107);
             this.tbSendEmail.Name = "tbSendEmail";
-            this.tbSendEmail.Size = new System.Drawing.Size(207, 19);
+            this.tbSendEmail.Size = new System.Drawing.Size(207, 17);
             this.tbSendEmail.TabIndex = 2;
+            this.tbSendEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbSendEmail.TextChanged += new System.EventHandler(this.tbSendEmail_TextChanged);
             // 
             // btnSendEmail
@@ -99,6 +100,7 @@ namespace JuniorProjectWTHR
             this.tbCode.Name = "tbCode";
             this.tbCode.Size = new System.Drawing.Size(208, 19);
             this.tbCode.TabIndex = 7;
+            this.tbCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // sendcode
             // 

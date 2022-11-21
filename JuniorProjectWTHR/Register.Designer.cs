@@ -70,6 +70,7 @@ namespace JuniorProjectWTHR
             this.tbPw.Name = "tbPw";
             this.tbPw.Size = new System.Drawing.Size(278, 19);
             this.tbPw.TabIndex = 6;
+            this.tbPw.UseSystemPasswordChar = true;
             // 
             // tbConfirm
             // 
@@ -81,6 +82,7 @@ namespace JuniorProjectWTHR
             this.tbConfirm.Name = "tbConfirm";
             this.tbConfirm.Size = new System.Drawing.Size(278, 19);
             this.tbConfirm.TabIndex = 7;
+            this.tbConfirm.UseSystemPasswordChar = true;
             // 
             // btnBack
             // 
