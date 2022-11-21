@@ -85,6 +85,7 @@
             this.btnKualitasUdara.Name = "btnKualitasUdara";
             this.btnKualitasUdara.Size = new System.Drawing.Size(55, 46);
             this.btnKualitasUdara.TabIndex = 2;
+            this.btnKualitasUdara.Text = "Hai";
             this.btnKualitasUdara.UseVisualStyleBackColor = false;
             this.btnKualitasUdara.Click += new System.EventHandler(this.btnKualitasUdara_Click);
             // 
