@@ -54,10 +54,10 @@
             this.labDT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labDT.Name = "labDT";
             this.labDT.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labDT.Size = new System.Drawing.Size(80, 17);
+            this.labDT.Size = new System.Drawing.Size(82, 17);
             this.labDT.TabIndex = 1;
             this.labDT.Text = "Wednesady";
-            this.labDT.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labDT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labMainWeather
             // 
@@ -84,13 +84,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.labWeatherDescripton);
             this.Controls.Add(this.labMainWeather);
             this.Controls.Add(this.labDT);
             this.Controls.Add(this.picWeatherIcon);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ForecastUC";
-            this.Size = new System.Drawing.Size(81, 182);
+            this.Size = new System.Drawing.Size(82, 257);
             this.Load += new System.EventHandler(this.ForecastUC_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picWeatherIcon)).EndInit();
             this.ResumeLayout(false);

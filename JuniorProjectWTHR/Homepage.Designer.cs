@@ -174,10 +174,10 @@
             // FLP
             // 
             this.FLP.BackColor = System.Drawing.Color.Transparent;
-            this.FLP.Location = new System.Drawing.Point(415, 172);
+            this.FLP.Location = new System.Drawing.Point(413, 168);
             this.FLP.Margin = new System.Windows.Forms.Padding(2);
             this.FLP.Name = "FLP";
-            this.FLP.Size = new System.Drawing.Size(387, 192);
+            this.FLP.Size = new System.Drawing.Size(348, 207);
             this.FLP.TabIndex = 11;
             this.FLP.Paint += new System.Windows.Forms.PaintEventHandler(this.FLP_Paint);
             // 
