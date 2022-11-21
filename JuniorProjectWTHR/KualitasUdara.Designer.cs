@@ -58,11 +58,11 @@ namespace JuniorProjectWTHR
             // 
             this.lbAqius.AutoSize = true;
             this.lbAqius.BackColor = System.Drawing.Color.Transparent;
-            this.lbAqius.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAqius.Font = new System.Drawing.Font("Tahoma", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAqius.ForeColor = System.Drawing.Color.White;
-            this.lbAqius.Location = new System.Drawing.Point(341, 298);
+            this.lbAqius.Location = new System.Drawing.Point(180, 146);
             this.lbAqius.Name = "lbAqius";
-            this.lbAqius.Size = new System.Drawing.Size(77, 58);
+            this.lbAqius.Size = new System.Drawing.Size(172, 116);
             this.lbAqius.TabIndex = 1;
             this.lbAqius.Text = "25";
             this.lbAqius.Click += new System.EventHandler(this.lbAqius_Click);
@@ -107,24 +107,24 @@ namespace JuniorProjectWTHR
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(54, 277);
+            this.pictureBox1.Location = new System.Drawing.Point(57, 62);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(401, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(401, 335);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Tahoma", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(101, 298);
+            this.label1.Location = new System.Drawing.Point(78, 301);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 58);
+            this.label1.Size = new System.Drawing.Size(355, 75);
             this.label1.TabIndex = 6;
             this.label1.Text = "Good";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // KualitasUdara
             // 

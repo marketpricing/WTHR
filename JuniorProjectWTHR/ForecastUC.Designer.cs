@@ -73,13 +73,16 @@
             // 
             // labWeatherDescripton
             // 
-            this.labWeatherDescripton.Location = new System.Drawing.Point(-1, 153);
+            this.labWeatherDescripton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(88)))), ((int)(((byte)(90)))));
+            this.labWeatherDescripton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labWeatherDescripton.ForeColor = System.Drawing.Color.White;
+            this.labWeatherDescripton.Location = new System.Drawing.Point(-1, 156);
             this.labWeatherDescripton.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labWeatherDescripton.Name = "labWeatherDescripton";
-            this.labWeatherDescripton.Size = new System.Drawing.Size(81, 13);
+            this.labWeatherDescripton.Size = new System.Drawing.Size(81, 31);
             this.labWeatherDescripton.TabIndex = 3;
             this.labWeatherDescripton.Text = "Light rain";
-            this.labWeatherDescripton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.labWeatherDescripton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ForecastUC
             // 
