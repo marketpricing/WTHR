@@ -83,11 +83,10 @@
             this.btnKualitasUdara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKualitasUdara.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKualitasUdara.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnKualitasUdara.Location = new System.Drawing.Point(286, 75);
+            this.btnKualitasUdara.Location = new System.Drawing.Point(255, 75);
             this.btnKualitasUdara.Name = "btnKualitasUdara";
-            this.btnKualitasUdara.Size = new System.Drawing.Size(55, 46);
+            this.btnKualitasUdara.Size = new System.Drawing.Size(100, 91);
             this.btnKualitasUdara.TabIndex = 2;
-            this.btnKualitasUdara.Text = "Hai";
             this.btnKualitasUdara.UseVisualStyleBackColor = false;
             this.btnKualitasUdara.Click += new System.EventHandler(this.btnKualitasUdara_Click);
             // 
@@ -108,9 +107,9 @@
             // pbIcon
             // 
             this.pbIcon.BackColor = System.Drawing.Color.Transparent;
-            this.pbIcon.Location = new System.Drawing.Point(-22, 55);
+            this.pbIcon.Location = new System.Drawing.Point(-39, 44);
             this.pbIcon.Name = "pbIcon";
-            this.pbIcon.Size = new System.Drawing.Size(236, 162);
+            this.pbIcon.Size = new System.Drawing.Size(265, 173);
             this.pbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbIcon.TabIndex = 5;
             this.pbIcon.TabStop = false;

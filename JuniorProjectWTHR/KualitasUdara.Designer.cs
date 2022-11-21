@@ -57,55 +57,74 @@ namespace JuniorProjectWTHR
             // lbAqius
             // 
             this.lbAqius.AutoSize = true;
-            this.lbAqius.Location = new System.Drawing.Point(67, 76);
+            this.lbAqius.BackColor = System.Drawing.Color.Transparent;
+            this.lbAqius.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAqius.ForeColor = System.Drawing.Color.White;
+            this.lbAqius.Location = new System.Drawing.Point(341, 298);
             this.lbAqius.Name = "lbAqius";
-            this.lbAqius.Size = new System.Drawing.Size(32, 13);
+            this.lbAqius.Size = new System.Drawing.Size(77, 58);
             this.lbAqius.TabIndex = 1;
-            this.lbAqius.Text = "aqius";
+            this.lbAqius.Text = "25";
+            this.lbAqius.Click += new System.EventHandler(this.lbAqius_Click);
             // 
             // lbAqicn
             // 
             this.lbAqicn.AutoSize = true;
-            this.lbAqicn.Location = new System.Drawing.Point(651, 99);
+            this.lbAqicn.BackColor = System.Drawing.Color.Transparent;
+            this.lbAqicn.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lbAqicn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbAqicn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAqicn.Location = new System.Drawing.Point(656, 102);
             this.lbAqicn.Name = "lbAqicn";
-            this.lbAqicn.Size = new System.Drawing.Size(33, 13);
+            this.lbAqicn.Size = new System.Drawing.Size(34, 25);
             this.lbAqicn.TabIndex = 2;
-            this.lbAqicn.Text = "aqicn";
+            this.lbAqicn.Text = "xx";
             // 
             // lbMainus
             // 
-            this.lbMainus.AutoSize = true;
-            this.lbMainus.Location = new System.Drawing.Point(654, 221);
+            this.lbMainus.BackColor = System.Drawing.Color.Transparent;
+            this.lbMainus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMainus.ForeColor = System.Drawing.Color.White;
+            this.lbMainus.Location = new System.Drawing.Point(585, 227);
             this.lbMainus.Name = "lbMainus";
-            this.lbMainus.Size = new System.Drawing.Size(40, 13);
+            this.lbMainus.Size = new System.Drawing.Size(175, 35);
             this.lbMainus.TabIndex = 3;
             this.lbMainus.Text = "mainus";
+            this.lbMainus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbMainus.Click += new System.EventHandler(this.lbMainus_Click);
             // 
             // lbMaincn
             // 
-            this.lbMaincn.AutoSize = true;
-            this.lbMaincn.Location = new System.Drawing.Point(657, 342);
+            this.lbMaincn.BackColor = System.Drawing.Color.Transparent;
+            this.lbMaincn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMaincn.Location = new System.Drawing.Point(602, 347);
             this.lbMaincn.Name = "lbMaincn";
-            this.lbMaincn.Size = new System.Drawing.Size(41, 13);
+            this.lbMaincn.Size = new System.Drawing.Size(145, 29);
             this.lbMaincn.TabIndex = 4;
             this.lbMaincn.Text = "maincn";
+            this.lbMaincn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbMaincn.Click += new System.EventHandler(this.lbMaincn_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(176, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(54, 277);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(224, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(401, 99);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(196, 99);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(101, 298);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(151, 58);
             this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
+            this.label1.Text = "Good";
             // 
             // KualitasUdara
             // 
@@ -116,13 +135,14 @@ namespace JuniorProjectWTHR
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbMaincn);
             this.Controls.Add(this.lbMainus);
             this.Controls.Add(this.lbAqicn);
             this.Controls.Add(this.lbAqius);
             this.Controls.Add(this.btnBackKU);
+            this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "KualitasUdara";
             this.Text = "KualitasUdara";
             this.Load += new System.EventHandler(this.KualitasUdara_Load);
