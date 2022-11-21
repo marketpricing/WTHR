@@ -44,35 +44,38 @@ namespace JuniorProjectWTHR
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(646, 331);
+            this.btnLogin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLogin.Location = new System.Drawing.Point(648, 349);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(120, 61);
+            this.btnLogin.Size = new System.Drawing.Size(120, 37);
             this.btnLogin.TabIndex = 0;
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnNoAkun
             // 
-            this.btnNoAkun.BackColor = System.Drawing.Color.Transparent;
+            this.btnNoAkun.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(222)))), ((int)(((byte)(50)))));
             this.btnNoAkun.FlatAppearance.BorderSize = 0;
             this.btnNoAkun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNoAkun.Location = new System.Drawing.Point(646, 415);
+            this.btnNoAkun.Location = new System.Drawing.Point(648, 421);
             this.btnNoAkun.Name = "btnNoAkun";
-            this.btnNoAkun.Size = new System.Drawing.Size(142, 23);
+            this.btnNoAkun.Size = new System.Drawing.Size(130, 25);
             this.btnNoAkun.TabIndex = 3;
+            this.btnNoAkun.Text = "Belum Punya Akun?";
             this.btnNoAkun.UseVisualStyleBackColor = false;
             this.btnNoAkun.Click += new System.EventHandler(this.btnNoAkun_Click);
             // 
             // btnLupaPassword
             // 
-            this.btnLupaPassword.BackColor = System.Drawing.Color.Transparent;
+            this.btnLupaPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(222)))), ((int)(((byte)(50)))));
             this.btnLupaPassword.FlatAppearance.BorderSize = 0;
             this.btnLupaPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLupaPassword.Location = new System.Drawing.Point(647, 398);
+            this.btnLupaPassword.Location = new System.Drawing.Point(647, 392);
             this.btnLupaPassword.Name = "btnLupaPassword";
-            this.btnLupaPassword.Size = new System.Drawing.Size(119, 23);
+            this.btnLupaPassword.Size = new System.Drawing.Size(130, 25);
             this.btnLupaPassword.TabIndex = 4;
+            this.btnLupaPassword.Text = "Lupa Password?";
             this.btnLupaPassword.UseVisualStyleBackColor = false;
             this.btnLupaPassword.Click += new System.EventHandler(this.btnLupaPassword_Click);
             // 

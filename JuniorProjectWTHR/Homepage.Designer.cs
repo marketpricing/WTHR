@@ -55,10 +55,10 @@
             this.btnProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnProfile.FlatAppearance.BorderSize = 0;
             this.btnProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProfile.Location = new System.Drawing.Point(1005, 14);
-            this.btnProfile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProfile.Location = new System.Drawing.Point(754, 11);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(47, 38);
+            this.btnProfile.Size = new System.Drawing.Size(35, 31);
             this.btnProfile.TabIndex = 0;
             this.btnProfile.UseVisualStyleBackColor = false;
             this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
@@ -70,10 +70,10 @@
             this.cbLokasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbLokasi.ForeColor = System.Drawing.Color.White;
             this.cbLokasi.FormattingEnabled = true;
-            this.cbLokasi.Location = new System.Drawing.Point(63, 14);
-            this.cbLokasi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbLokasi.Location = new System.Drawing.Point(47, 11);
+            this.cbLokasi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbLokasi.Name = "cbLokasi";
-            this.cbLokasi.Size = new System.Drawing.Size(427, 33);
+            this.cbLokasi.Size = new System.Drawing.Size(321, 28);
             this.cbLokasi.TabIndex = 1;
             // 
             // btnKualitasUdara
@@ -83,10 +83,9 @@
             this.btnKualitasUdara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKualitasUdara.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKualitasUdara.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnKualitasUdara.Location = new System.Drawing.Point(340, 92);
-            this.btnKualitasUdara.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKualitasUdara.Location = new System.Drawing.Point(254, 72);
             this.btnKualitasUdara.Name = "btnKualitasUdara";
-            this.btnKualitasUdara.Size = new System.Drawing.Size(133, 112);
+            this.btnKualitasUdara.Size = new System.Drawing.Size(100, 91);
             this.btnKualitasUdara.TabIndex = 2;
             this.btnKualitasUdara.UseVisualStyleBackColor = false;
             this.btnKualitasUdara.Click += new System.EventHandler(this.btnKualitasUdara_Click);
@@ -97,10 +96,9 @@
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.Font = new System.Drawing.Font("Segoe Fluent Icons", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(391, 14);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSearch.Location = new System.Drawing.Point(293, 11);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(100, 34);
+            this.btnSearch.Size = new System.Drawing.Size(75, 28);
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
@@ -109,10 +107,9 @@
             // pbIcon
             // 
             this.pbIcon.BackColor = System.Drawing.Color.Transparent;
-            this.pbIcon.Location = new System.Drawing.Point(-52, 54);
-            this.pbIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbIcon.Location = new System.Drawing.Point(-39, 44);
             this.pbIcon.Name = "pbIcon";
-            this.pbIcon.Size = new System.Drawing.Size(353, 213);
+            this.pbIcon.Size = new System.Drawing.Size(265, 173);
             this.pbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbIcon.TabIndex = 5;
             this.pbIcon.TabStop = false;
@@ -122,10 +119,9 @@
             this.lbKondisi.AutoSize = true;
             this.lbKondisi.BackColor = System.Drawing.Color.Transparent;
             this.lbKondisi.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbKondisi.Location = new System.Drawing.Point(200, 490);
-            this.lbKondisi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbKondisi.Location = new System.Drawing.Point(150, 398);
             this.lbKondisi.Name = "lbKondisi";
-            this.lbKondisi.Size = new System.Drawing.Size(53, 29);
+            this.lbKondisi.Size = new System.Drawing.Size(42, 23);
             this.lbKondisi.TabIndex = 6;
             this.lbKondisi.Text = "rain";
             // 
@@ -135,10 +131,9 @@
             this.lbDetail.BackColor = System.Drawing.Color.Transparent;
             this.lbDetail.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDetail.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.lbDetail.Location = new System.Drawing.Point(41, 331);
-            this.lbDetail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbDetail.Location = new System.Drawing.Point(31, 269);
             this.lbDetail.Name = "lbDetail";
-            this.lbDetail.Size = new System.Drawing.Size(141, 36);
+            this.lbDetail.Size = new System.Drawing.Size(112, 29);
             this.lbDetail.TabIndex = 7;
             this.lbDetail.Text = "Light rain";
             // 
@@ -149,10 +144,9 @@
             this.lbSuhu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lbSuhu.Font = new System.Drawing.Font("Tahoma", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSuhu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(88)))), ((int)(((byte)(90)))));
-            this.lbSuhu.Location = new System.Drawing.Point(16, 231);
-            this.lbSuhu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbSuhu.Location = new System.Drawing.Point(12, 188);
             this.lbSuhu.Name = "lbSuhu";
-            this.lbSuhu.Size = new System.Drawing.Size(309, 101);
+            this.lbSuhu.Size = new System.Drawing.Size(250, 81);
             this.lbSuhu.TabIndex = 8;
             this.lbSuhu.Text = "22.3 C";
             // 
@@ -161,10 +155,9 @@
             this.lbWind.AutoSize = true;
             this.lbWind.BackColor = System.Drawing.Color.Transparent;
             this.lbWind.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbWind.Location = new System.Drawing.Point(376, 490);
-            this.lbWind.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbWind.Location = new System.Drawing.Point(282, 398);
             this.lbWind.Name = "lbWind";
-            this.lbWind.Size = new System.Drawing.Size(59, 29);
+            this.lbWind.Size = new System.Drawing.Size(46, 23);
             this.lbWind.TabIndex = 9;
             this.lbWind.Text = "44,2";
             // 
@@ -173,20 +166,19 @@
             this.lbHumidity.AutoSize = true;
             this.lbHumidity.BackColor = System.Drawing.Color.Transparent;
             this.lbHumidity.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHumidity.Location = new System.Drawing.Point(57, 490);
-            this.lbHumidity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbHumidity.Location = new System.Drawing.Point(43, 398);
             this.lbHumidity.Name = "lbHumidity";
-            this.lbHumidity.Size = new System.Drawing.Size(39, 29);
+            this.lbHumidity.Size = new System.Drawing.Size(30, 23);
             this.lbHumidity.TabIndex = 10;
             this.lbHumidity.Text = "21";
             // 
             // FLP
             // 
             this.FLP.BackColor = System.Drawing.Color.Transparent;
-            this.FLP.Location = new System.Drawing.Point(551, 207);
-            this.FLP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FLP.Location = new System.Drawing.Point(413, 168);
+            this.FLP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FLP.Name = "FLP";
-            this.FLP.Size = new System.Drawing.Size(464, 255);
+            this.FLP.Size = new System.Drawing.Size(348, 207);
             this.FLP.TabIndex = 11;
             // 
             // label1
@@ -195,10 +187,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(29, 444);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(22, 361);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 28);
+            this.label1.Size = new System.Drawing.Size(82, 21);
             this.label1.TabIndex = 12;
             this.label1.Text = "Humidity";
             // 
@@ -208,10 +199,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(187, 444);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(140, 361);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 28);
+            this.label2.Size = new System.Drawing.Size(86, 21);
             this.label2.TabIndex = 13;
             this.label2.Text = "Condition";
             // 
@@ -221,10 +211,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(345, 444);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(259, 361);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 28);
+            this.label3.Size = new System.Drawing.Size(96, 21);
             this.label3.TabIndex = 14;
             this.label3.Text = "Windspeed";
             // 
@@ -232,38 +221,37 @@
             // 
             this.label4.BackColor = System.Drawing.Color.Teal;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(160, 444);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(120, 361);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(2, 116);
+            this.label4.Size = new System.Drawing.Size(2, 95);
             this.label4.TabIndex = 15;
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.DarkCyan;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(321, 444);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(241, 361);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(2, 116);
+            this.label5.Size = new System.Drawing.Size(2, 95);
             this.label5.TabIndex = 16;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(63, 392);
+            this.label6.Location = new System.Drawing.Point(47, 318);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 17);
+            this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 17;
             this.label6.Text = "label6";
             // 
             // Homepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -282,7 +270,7 @@
             this.Controls.Add(this.btnProfile);
             this.Controls.Add(this.FLP);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Homepage";
             this.Text = "Homepage";
             this.Load += new System.EventHandler(this.Homepage_Load);

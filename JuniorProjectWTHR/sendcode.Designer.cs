@@ -42,10 +42,9 @@ namespace JuniorProjectWTHR
             this.btn_Back.BackColor = System.Drawing.Color.Transparent;
             this.btn_Back.FlatAppearance.BorderSize = 0;
             this.btn_Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Back.Location = new System.Drawing.Point(383, 500);
-            this.btn_Back.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Back.Location = new System.Drawing.Point(255, 325);
             this.btn_Back.Name = "btn_Back";
-            this.btn_Back.Size = new System.Drawing.Size(53, 57);
+            this.btn_Back.Size = new System.Drawing.Size(35, 37);
             this.btn_Back.TabIndex = 0;
             this.btn_Back.UseVisualStyleBackColor = false;
             this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
@@ -56,36 +55,37 @@ namespace JuniorProjectWTHR
             this.tbSendEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbSendEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSendEmail.ForeColor = System.Drawing.Color.White;
-            this.tbSendEmail.Location = new System.Drawing.Point(74, 165);
-            this.tbSendEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbSendEmail.Location = new System.Drawing.Point(49, 107);
             this.tbSendEmail.Name = "tbSendEmail";
-            this.tbSendEmail.Size = new System.Drawing.Size(310, 28);
+            this.tbSendEmail.Size = new System.Drawing.Size(207, 19);
             this.tbSendEmail.TabIndex = 2;
             this.tbSendEmail.TextChanged += new System.EventHandler(this.tbSendEmail_TextChanged);
             // 
             // btnSendEmail
             // 
-            this.btnSendEmail.BackColor = System.Drawing.Color.Transparent;
+            this.btnSendEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(88)))), ((int)(((byte)(90)))));
             this.btnSendEmail.FlatAppearance.BorderSize = 0;
             this.btnSendEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSendEmail.Location = new System.Drawing.Point(103, 381);
-            this.btnSendEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSendEmail.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSendEmail.Location = new System.Drawing.Point(68, 248);
             this.btnSendEmail.Name = "btnSendEmail";
-            this.btnSendEmail.Size = new System.Drawing.Size(253, 37);
+            this.btnSendEmail.Size = new System.Drawing.Size(169, 25);
             this.btnSendEmail.TabIndex = 3;
+            this.btnSendEmail.Text = "SEND CODE";
             this.btnSendEmail.UseVisualStyleBackColor = false;
             this.btnSendEmail.Click += new System.EventHandler(this.btnSendEmail_Click);
             // 
             // btnVerify
             // 
-            this.btnVerify.BackColor = System.Drawing.Color.Transparent;
+            this.btnVerify.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(88)))), ((int)(((byte)(90)))));
             this.btnVerify.FlatAppearance.BorderSize = 0;
             this.btnVerify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerify.Location = new System.Drawing.Point(104, 439);
-            this.btnVerify.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnVerify.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerify.Location = new System.Drawing.Point(69, 285);
             this.btnVerify.Name = "btnVerify";
-            this.btnVerify.Size = new System.Drawing.Size(248, 38);
+            this.btnVerify.Size = new System.Drawing.Size(165, 25);
             this.btnVerify.TabIndex = 6;
+            this.btnVerify.Text = "VERIFY";
             this.btnVerify.UseVisualStyleBackColor = false;
             this.btnVerify.Click += new System.EventHandler(this.btnVerify_Click);
             // 
@@ -95,26 +95,24 @@ namespace JuniorProjectWTHR
             this.tbCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCode.ForeColor = System.Drawing.Color.White;
-            this.tbCode.Location = new System.Drawing.Point(72, 277);
-            this.tbCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tbCode.Location = new System.Drawing.Point(48, 180);
             this.tbCode.Name = "tbCode";
-            this.tbCode.Size = new System.Drawing.Size(312, 28);
+            this.tbCode.Size = new System.Drawing.Size(208, 19);
             this.tbCode.TabIndex = 7;
             // 
             // sendcode
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(457, 571);
+            this.ClientSize = new System.Drawing.Size(305, 371);
             this.Controls.Add(this.tbCode);
             this.Controls.Add(this.btnVerify);
             this.Controls.Add(this.btnSendEmail);
             this.Controls.Add(this.tbSendEmail);
             this.Controls.Add(this.btn_Back);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "sendcode";
             this.Text = "sendcode";
             this.Load += new System.EventHandler(this.sendcode_Load);

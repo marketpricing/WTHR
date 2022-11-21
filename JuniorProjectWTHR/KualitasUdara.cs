@@ -56,9 +56,9 @@ namespace JuniorProjectWTHR
 
                 if(AQIus >= 0 && AQIus <= 50)
                 {
-                    pictureBox1.BackColor = Color.FromArgb(148, 194, 103);
-                    lbAqius.BackColor = Color.FromArgb(148, 194, 103);
-                    label1.BackColor = Color.FromArgb(148, 194, 103);
+                    pictureBox1.BackColor = Color.FromArgb(171, 209, 98);
+                    lbAqius.BackColor = Color.FromArgb(171, 209, 98);
+                    label1.BackColor = Color.FromArgb(171, 209, 98);
                     pictureBox2.ImageLocation = "https://i.postimg.cc/FH9GYqG4/1.png";
                     label1.Text = "GOOD";
                 }

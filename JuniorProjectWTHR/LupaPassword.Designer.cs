@@ -74,15 +74,17 @@
             // 
             // btnNewPassword
             // 
-            this.btnNewPassword.BackColor = System.Drawing.Color.Transparent;
+            this.btnNewPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
             this.btnNewPassword.FlatAppearance.BorderSize = 0;
             this.btnNewPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewPassword.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewPassword.Location = new System.Drawing.Point(399, 370);
+            this.btnNewPassword.Font = new System.Drawing.Font("Britannic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewPassword.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnNewPassword.Location = new System.Drawing.Point(397, 372);
             this.btnNewPassword.Margin = new System.Windows.Forms.Padding(2);
             this.btnNewPassword.Name = "btnNewPassword";
-            this.btnNewPassword.Size = new System.Drawing.Size(148, 31);
+            this.btnNewPassword.Size = new System.Drawing.Size(148, 27);
             this.btnNewPassword.TabIndex = 3;
+            this.btnNewPassword.Text = "BUAT PASSWORD BARU";
             this.btnNewPassword.UseVisualStyleBackColor = false;
             this.btnNewPassword.Click += new System.EventHandler(this.btnNewPassword_Click);
             // 
