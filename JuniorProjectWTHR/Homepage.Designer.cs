@@ -105,7 +105,7 @@
             // pbIcon
             // 
             this.pbIcon.BackColor = System.Drawing.Color.Transparent;
-            this.pbIcon.Location = new System.Drawing.Point(2, 57);
+            this.pbIcon.Location = new System.Drawing.Point(-22, 55);
             this.pbIcon.Name = "pbIcon";
             this.pbIcon.Size = new System.Drawing.Size(236, 162);
             this.pbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
