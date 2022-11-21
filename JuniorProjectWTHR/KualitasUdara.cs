@@ -120,5 +120,10 @@ namespace JuniorProjectWTHR
         {
 
         }
+
+        private void lbAqicn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
