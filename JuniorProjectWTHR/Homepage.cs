@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.Net;
 using static System.Net.WebRequestMethods;
+using Npgsql;
 
 namespace JuniorProjectWTHR
 {
@@ -20,10 +21,11 @@ namespace JuniorProjectWTHR
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        private NpgsqlConnection conn;
+        string connstring = "Host=pgadminwthr.postgres.database.azure.com;Port=5432;Username=iwan;Password=Juniorproyek22!;Database=WTHR";
+        private DataTable dt;
+        private NpgsqlCommand cmd;
+        private string sql = null;
 
         private void btnKualitasUdara_Click(object sender, EventArgs e)
         {
@@ -44,6 +46,18 @@ namespace JuniorProjectWTHR
             cbLokasi.Text = "Yogyakarta";
             getWeather();
             getForecast();
+
+            conn = new NpgsqlConnection(connstring);
+            conn.Open();
+            sql = @"select * from show_rekomen(:_kondisi)";
+            cmd = new NpgsqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("_kondisi", kond);
+            dt = new DataTable();
+            NpgsqlDataReader rd = cmd.ExecuteReader();
+            dt.Load(rd);
+
+            label6.Text = dt.Rows[0]["_rek_aksi"].ToString();
+            conn.Close();
         }
 
         string APIkeys = "18dede3a5891aa7f0c4f991203e451c0";
@@ -55,6 +69,7 @@ namespace JuniorProjectWTHR
 
         public double lon;
         public double lat;
+        public string kond;
         void getWeather()
         {
             using (WebClient web = new WebClient())
@@ -74,6 +89,7 @@ namespace JuniorProjectWTHR
 
                 lon = info.coord.lon;
                 lat = info.coord.lat;
+                kond = info.weather[0].main;
 
             }
         }
@@ -91,7 +107,6 @@ namespace JuniorProjectWTHR
             return celcius; 
         }
 
-        
         void getForecast()
         {
             FLP.Controls.Clear();
@@ -112,39 +127,7 @@ namespace JuniorProjectWTHR
 
                     FLP.Controls.Add(FUC);
                 }
-                
-
             }
-        }
-
-        private void FLP_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lbSuhu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbLokasi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
