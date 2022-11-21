@@ -35,6 +35,9 @@ namespace JuniorProjectWTHR
             this.lbAqicn = new System.Windows.Forms.Label();
             this.lbMainus = new System.Windows.Forms.Label();
             this.lbMaincn = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBackKU
@@ -87,6 +90,23 @@ namespace JuniorProjectWTHR
             this.lbMaincn.TabIndex = 4;
             this.lbMaincn.Text = "maincn";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(176, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(224, 79);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(196, 99);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
+            // 
             // KualitasUdara
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,6 +115,8 @@ namespace JuniorProjectWTHR
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbMaincn);
             this.Controls.Add(this.lbMainus);
             this.Controls.Add(this.lbAqicn);
@@ -104,6 +126,7 @@ namespace JuniorProjectWTHR
             this.Name = "KualitasUdara";
             this.Text = "KualitasUdara";
             this.Load += new System.EventHandler(this.KualitasUdara_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,5 +139,7 @@ namespace JuniorProjectWTHR
         private System.Windows.Forms.Label lbAqicn;
         private System.Windows.Forms.Label lbMainus;
         private System.Windows.Forms.Label lbMaincn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
