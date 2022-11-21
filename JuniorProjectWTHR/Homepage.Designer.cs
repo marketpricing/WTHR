@@ -276,7 +276,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnProfile;
-        private System.Windows.Forms.Button btnKualitasUdara;
+        public System.Windows.Forms.Button btnKualitasUdara;
         public System.Windows.Forms.ComboBox cbLokasi;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.PictureBox pbIcon;

@@ -28,7 +28,7 @@ namespace JuniorProjectWTHR
         private void btnKualitasUdara_Click(object sender, EventArgs e)
         {
             this.Hide();
-            KualitasUdara ku = new KualitasUdara();
+            KualitasUdara ku = new KualitasUdara(this);
             ku.Show();
         }
 
@@ -44,7 +44,6 @@ namespace JuniorProjectWTHR
             cbLokasi.Text = "Yogyakarta";
             getWeather();
             getForecast();
-            getAirInfo();
         }
 
         string APIkeys = "18dede3a5891aa7f0c4f991203e451c0";
@@ -54,8 +53,8 @@ namespace JuniorProjectWTHR
             getForecast();
         }
 
-        double lon;
-        double lat;
+        public double lon;
+        public double lat;
         void getWeather()
         {
             using (WebClient web = new WebClient())
@@ -114,20 +113,6 @@ namespace JuniorProjectWTHR
                     FLP.Controls.Add(FUC);
                 }
                 
-
-            }
-        }
-
-        string APIkeysAir = "26214821-e2d3-4346-b6da-e760b4a2c8cc";
-        void getAirInfo()
-        {
-            using (WebClient web = new WebClient())
-            {
-                string url = string.Format("http://api.airvisual.com/v2/nearest_city?lat={0}&lon={1}&key={2}", lat, lon, APIkeysAir);
-                var json = web.DownloadString(url);
-                AirInfo.root airInfo = JsonConvert.DeserializeObject<AirInfo.root>(json);
-
-                btnKualitasUdara.Text = (airInfo.data.current.pollution.aqius).ToString();
 
             }
         }

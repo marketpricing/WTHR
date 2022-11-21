@@ -11,6 +11,9 @@ namespace JuniorProjectWTHR
         public class pollution
         {
             public int aqius { get; set; }
+            public string mainus { get; set; }
+            public int aqicn { get; set; }
+            public string maincn { get; set; }
         }
         public class current
         {
