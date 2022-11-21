@@ -59,13 +59,15 @@ namespace JuniorProjectWTHR
                     pictureBox1.BackColor = Color.FromArgb(148, 194, 103);
                     lbAqius.BackColor = Color.FromArgb(148, 194, 103);
                     label1.BackColor = Color.FromArgb(148, 194, 103);
+                    pictureBox2.ImageLocation = "https://i.postimg.cc/FH9GYqG4/1.png";
                     label1.Text = "GOOD";
                 }
                 else if (AQIus > 50 && AQIus <=100)
                 {
-                    pictureBox1.BackColor = Color.FromArgb(210, 210, 96);
-                    lbAqius.BackColor = Color.FromArgb(210, 210, 96);
-                    label1.BackColor = Color.FromArgb(210, 210, 96);
+                    pictureBox1.BackColor = Color.FromArgb(247, 212, 96);
+                    lbAqius.BackColor = Color.FromArgb(247, 212, 96);
+                    label1.BackColor = Color.FromArgb(247, 212, 96);
+                    pictureBox2.ImageLocation = "https://i.postimg.cc/FzygRgLz/2.png";
                     label1.Text = "MODERATE";
                 }
                 else if (AQIus > 100 && AQIus <= 150)
@@ -73,6 +75,7 @@ namespace JuniorProjectWTHR
                     pictureBox1.BackColor = Color.FromArgb(252, 153, 86);
                     lbAqius.BackColor = Color.FromArgb(252, 153, 86);
                     label1.BackColor = Color.FromArgb(252, 153, 86);
+                    pictureBox2.ImageLocation = "https://i.postimg.cc/qq46mfNB/3.png";
                     label1.Text = "UNHEALTHY FOR SENSITIVE GROUPS";
                 }
                 else if (AQIus > 150 && AQIus <= 200)
@@ -80,6 +83,7 @@ namespace JuniorProjectWTHR
                     pictureBox1.BackColor = Color.FromArgb(247, 129, 98);
                     lbAqius.BackColor = Color.FromArgb(247, 129, 98);
                     label1.BackColor = Color.FromArgb(247, 129, 98);
+                    pictureBox2.ImageLocation = "https://i.postimg.cc/gkMLKTmd/4.png";
                     label1.Text = "UNHEALTHY";
                 }
                 else if (AQIus > 200 && AQIus <= 300)
@@ -87,6 +91,7 @@ namespace JuniorProjectWTHR
                     pictureBox1.BackColor = Color.FromArgb(162, 121, 157);
                     lbAqius.BackColor = Color.FromArgb(162, 121, 157);
                     label1.BackColor = Color.FromArgb(162, 121, 157);
+                    pictureBox2.ImageLocation = "https://i.postimg.cc/sXy2zYsw/5.png";
                     label1.Text = "VERY UNHEALTHY";
                 }
                 else
@@ -94,6 +99,7 @@ namespace JuniorProjectWTHR
                     pictureBox1.BackColor = Color.FromArgb(160, 120, 100);
                     lbAqius.BackColor = Color.FromArgb(160, 120, 100);
                     label1.BackColor = Color.FromArgb(160, 120, 100);
+                    pictureBox2.ImageLocation = "https://i.postimg.cc/j5ZRrB8S/6.png";
                     label1.Text = "HAZARDOUS";
                 }
 
